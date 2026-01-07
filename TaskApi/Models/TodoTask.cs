@@ -6,8 +6,7 @@ public enum TaskStatus
 {
     Pending,
     InProgress,
-    Completed,
-    Cancelled
+    Completed
 }
 
 public class TodoTask
