@@ -1,28 +1,15 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TaskApi.Models;
+namespace TaskApi.DTOs;
 
-public enum TaskStatus
+public class CreateTaskDto
 {
-    Pending,
-    InProgress,
-    Completed,
-    Cancelled
-}
-
-public class TodoTask
-{
-    public Guid Id { get; set; }
-
     [Required]
     [MaxLength(100)]
     public string Title { get; set; } = string.Empty;
 
     [MaxLength(500)]
     public string? Description { get; set; }
-
-    [Required]
-    public TaskStatus Status { get; set; } = TaskStatus.Pending;
 
     [Required]
     public DateTime DueDate { get; set; }
