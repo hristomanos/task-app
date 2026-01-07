@@ -1,7 +1,7 @@
 # Task Manager App
 
 A full-stack task manager application built with **ASP.NET Core (C#)** for the backend and **React** for the frontend.  
-Allows users to create, view, update, and delete tasks with a friendly web interface.
+Allows users to create, view, update, and delete tasks with a web interface.
 
 ---
 
