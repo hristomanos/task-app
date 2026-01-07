@@ -42,7 +42,7 @@ Allows users to create, view, update, and delete tasks with a friendly web inter
 git clone <your-repo-url>
 cd <repo-folder>
 ```
-### Setup Backend
+### 2. Setup Backend
 
 ```bash
 cd TaskApi
@@ -51,7 +51,7 @@ dotnet ef database update
 dotnet run
 ```
 
-### Setup Frontend
+### 3. Setup Frontend
 
 ```bash
 cd ../frontend
